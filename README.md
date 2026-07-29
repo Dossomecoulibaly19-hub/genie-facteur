@@ -10,6 +10,6 @@ Serveur WebSocket pour relayer les messages en temps réel entre les utilisateur
 
 ### Déploiement Render
 - Build Command: `pip install -r requirements.txt`
-- Start Command: `gunicorn --worker-class eventlet -w 1 app:app`
+- Start Command: `gunicorn --worker-class eventlet -w 1 server:app`
 
 ### Requirements.txt
